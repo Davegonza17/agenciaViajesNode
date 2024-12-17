@@ -1,0 +1,32 @@
+extends ./layout/index.pug
+
+block contenido
+    main.container.mt-5 
+        .row 
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam suscipit lacus nec dolor egestas blandit. Fusce ut dignissim lacus. Nam tempor maximus nibh, faucibus consectetur neque tincidunt eu. Cras facilisis augue et eros tempus, non tempor augue ullamcorper. Sed ac eleifend turpis. Donec a sapien mauris. Fusce faucibus vestibulum magna, sed sollicitudin nunc convallis ac. 
+
+                p Nulla vitae elit dictum, tempor libero in, tincidunt nibh. Aenean in placerat est. In hac habitasse platea dictumst. Aenean neque velit, facilisis quis fringilla in, iaculis at urna. Sed tincidunt non purus sed consequat. Aliquam molestie massa quam, et malesuada ipsum porttitor eu. Sed blandit eleifend lorem at porta. Donec sit amet luctus sem, non condimentum purus. 
+
+                p Cras vel ante at arcu ornare elementum. Donec sagittis vitae orci non tristique. Etiam tellus lorem, egestas vitae congue in, euismod quis felis. Aliquam ac lorem dictum, faucibus quam et, commodo lacus. Pellentesque tempor tristique justo, at tincidunt risus pellentesque a. 
+    .listado-iconos     
+        .container.mt-5.py-5.text-center
+            .row    
+                .col-md-4 
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta alias veniam explicabo ducimus deserunt saepe nam nemo voluptatum.
+
+                .col-md-4 
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta alias veniam explicabo ducimus deserunt saepe nam nemo voluptatum.
+
+                .col-md-4 
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios 
+                    p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta alias veniam explicabo ducimus deserunt saepe nam nemo voluptatum.
+
